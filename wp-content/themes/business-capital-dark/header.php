@@ -32,7 +32,7 @@
 		get_template_part( 'template-parts/slider/slider' );
 		get_template_part( 'template-parts/wwd/wwd' );
 		get_template_part( 'template-parts/hero-content/hero-content' );
-		// get_template_part( 'template-parts/featured-grid/featured-grid' );
+		
 		// get_template_part( 'template-parts/testimonial/testimonial' );
 		// get_template_part( 'template-parts/contact-form/contact-form' );
 	?>

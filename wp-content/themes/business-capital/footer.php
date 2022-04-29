@@ -20,10 +20,10 @@
 		<?php do_action( 'business_capital_after_content' ); ?>
 		
 		<footer id="colophon" class="site-footer">
-			<?php get_template_part( 'template-parts/footer/footer', 'widget' ); ?>
 
+			
 			<?php get_template_part( 'template-parts/footer/site-info' ); ?>
-		</footer><!-- #colophon -->
+		</footer>
 	</div><!-- #page -->
 
 	<div id="scrollup" class="displaynone">

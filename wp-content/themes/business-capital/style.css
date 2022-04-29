@@ -6526,7 +6526,7 @@ visibility: visible;
 .testimonial-thumb {
     position: relative;
 }
-.testimonial-thumb:before {
+/* .testimonial-thumb:before {
     content: "\f10d";
     display: block;
     font-family: 'Font Awesome 5 Free';
@@ -6543,7 +6543,7 @@ visibility: visible;
     padding: 3px;
     left: -12px;
     box-shadow: 0 0 9px #0003;
-}
+} */
 .section-teams .team-text-wrap, .section-testimonial .testimonial-summary, .section-latest-posts .latest-posts-text-content {
 	padding: 45px;
 }

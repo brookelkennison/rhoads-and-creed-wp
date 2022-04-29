@@ -586,7 +586,7 @@ New style */
 #testimonial-section.page .testimonial-thumb {
     position: relative;
     max-width: 80px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 #testimonial-section.page a.more-link {
@@ -602,4 +602,12 @@ New style */
 #search-toggle, #search-toggle:visited, .cart-contents a, .cart-contents a:visited {
     border: none;
     color: #fff;
+}
+
+#main {
+    background: none;
+}
+
+.hentry-inner {
+    margin: 50px 75px 200px;
 }

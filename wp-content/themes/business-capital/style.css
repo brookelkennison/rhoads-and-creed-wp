@@ -2131,7 +2131,6 @@ article.hentry .custom-button {
 }
 .blog .entry-container, .archive .entry-container {
     padding: 30px 25px;
-    /* margin: -20px 25px 0; */
     z-index: 9;
     position: relative;
 }
@@ -2149,7 +2148,7 @@ article.hentry .custom-button {
 
 
 .excerpt-image-left .hentry-inner .post-thumbnail {
-	width: 30%;
+	width: 10vw;
 	float: left;
 }
 .excerpt-image-left .entry-container {
@@ -2537,7 +2536,7 @@ object {
 }
 
 .gallery-columns-3 .gallery-item {
-	max-width: 33.33%;
+	max-width: 30%;
 }
 
 .gallery-columns-4 .gallery-item {

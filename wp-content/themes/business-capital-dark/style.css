@@ -621,4 +621,17 @@ New style */
     background-attachment: fixed;
 }
 
+#post-16 .hentry-inner {
+    padding: 200px;
+}
+
+#form_contact-us div {
+    color: white;
+}
+
+.with_frm_style .frm_primary_label {
+    color: white;
+}
+
+
   

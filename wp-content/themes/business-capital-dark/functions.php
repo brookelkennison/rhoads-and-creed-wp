@@ -48,3 +48,4 @@ add_action( 'after_setup_theme', 'business_capital_dark_setup', 11 );
  * Customizer additions.
  */
 require get_theme_file_path( '/inc/customizer/business-capital-dark-header-options.php' );
+

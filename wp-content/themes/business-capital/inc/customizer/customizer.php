@@ -187,3 +187,10 @@ require get_theme_file_path( '/inc/customizer/reset.php' );
  * Featured Grid.
  */
 require get_theme_file_path( '/inc/customizer/featured-grid.php' );
+
+/**
+ * Email List
+ */
+require get_theme_file_path( '/inc/customizer/email-list.php' );
+
+

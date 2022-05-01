@@ -611,3 +611,13 @@ New style */
 #post-1 {
     margin: 50px 75px 200px;
 }
+
+.home.custom-background {
+    background-color: #0a0a0a;
+    background-image: url(http://localhost:8080/rhoades-and-creed/wp-content/uploads/2022/04/pexels-tamil-king-3214064-1-scaled.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  

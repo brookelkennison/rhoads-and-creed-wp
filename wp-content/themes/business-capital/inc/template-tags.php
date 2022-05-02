@@ -325,6 +325,6 @@ endif;
  */
 function business_capital_footer() {
 	echo sprintf( _x( 'Copyright &copy; %1$s %2$s %3$s', '1: Year, 2: Site Title with home URL, 3: Privacy Policy Link', 'business-capital' ), esc_html( wp_date( __( 'Y', 'business-capital' ) ) ), '<a href="'. esc_url( home_url( '/' ) ) .'">'. esc_html( get_bloginfo( 'name', 'display' ) ) . '</a>', esc_url( get_the_privacy_policy_link() ) ) . ' &#124; ' . esc_html__( '
-		Business Capital by', 'business-capital' ). '&nbsp;<a target="_blank" href="'. esc_url( 'https://fireflythemes.com' ) .'">Firefly Themes</a>';
+		Website Creation by', 'business-capital' ). '&nbsp;<a target="_blank" href="'. esc_url( '#' ) .'">The Digital Design Corner</a>';
 }
 add_action( 'business_capital_footer', 'business_capital_footer', 10 );

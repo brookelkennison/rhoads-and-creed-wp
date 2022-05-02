@@ -1334,6 +1334,14 @@ a.skip-link  {
 
 }
 
+.privacy-policy-link > a {
+	color: white;
+}
+
+.privacy-policy-link > a:visited {
+	color: white;
+  }
+
 /* More than standard 910px (devices and browsers) */
 @media screen and (max-width: 909px) {
 	div#wp-custom-header {

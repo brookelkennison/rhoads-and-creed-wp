@@ -30,6 +30,8 @@
 
 	<?php get_template_part( 'template-parts/header/breadcrumb' ); ?>
 
+	<?php get_template_part( 'template-parts/email-list/email-list' ); ?>
+
 	<?php do_action( 'business_capital_before_content' ); ?>
 
 	<?php

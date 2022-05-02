@@ -7158,6 +7158,18 @@ color: #fff;
     background-color: #000;
     background-image: url(images/bg-shape-1.png);
 }
+.email-list > div {
+	background: none;
+	padding-bottom: 0;
+}
+
+#email-list-section {
+	padding-bottom: 0;
+}
+
+.email-list > div > div {
+	margin: 0;
+}
 .contact-info-wrap {
     padding: 0;
     background-color: #222;

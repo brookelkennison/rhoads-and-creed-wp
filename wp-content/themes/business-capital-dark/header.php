@@ -36,8 +36,10 @@
 		get_template_part( 'template-parts/header/breadcrumb' );
 		get_template_part( 'template-parts/slider/slider' );
 		// get_template_part( 'template-parts/wwd/wwd' );
-		// get_template_part( 'template-parts/hero-content/hero-content' );
+		get_template_part( 'template-parts/hero-content/hero-content' );
 		// get_template_part( 'template-parts/contact-form/contact-form' );
 		get_template_part( 'template-parts/testimonial/testimonial' );
+		get_template_part( 'template-parts/email-list/email-list' );
+				get_template_part( 'template-parts/wwd/wwd' );
 	?>
 

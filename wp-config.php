@@ -20,8 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('FS_METHOD', 'direct');
-define( 'DB_NAME', 'main' );
+define( 'DB_NAME', 'website1' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -38,7 +37,6 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -50,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '?$?B]C )74^#n{`K]zZ/8x_qNYb7LrRP>L`0VFzc|xYnNHonH?mg?EN(Cg]D]{Gb' );
-define( 'SECURE_AUTH_KEY',  '}wBk06/1}by1Tx^uDOp3r9j=(QtR92F;M^(]zdb>1.RCui166ch}))_A0QTvb`aa' );
-define( 'LOGGED_IN_KEY',    '4lrWV.p=1;3bM)en]ysMj%>7C=fD7Q,qh47Je1%Ly`4p>}T ms5elpXe+o[7TxD:' );
-define( 'NONCE_KEY',        '>SCD[GK+iX%8O%Epr{=R;UrbnJm4ZpN@h[Ys)XkZZU2l0:M%&#1THF&}_0mn^b_Z' );
-define( 'AUTH_SALT',        '8MHEw#1n_o6DnCju,[/|::>Un$pBWtm|9O%leq7,*fhsN|<ES-cU5mpXavr}X ha' );
-define( 'SECURE_AUTH_SALT', '&Xk?4b`@`9f:T/_HGX zwl*h88B{1HgMAOcT+GAkJG 9MV~F~N^ADeNoeMq,=E;2' );
-define( 'LOGGED_IN_SALT',   'E7DSD%yt+e(ua)*;D(#~sDdkhvR8Y&;dlzoN*mh]@k)QTV1#j#5Y%_Xb47thEYIk' );
-define( 'NONCE_SALT',       'c {@B5Si>iP&1qgGP@;99xB??F8;/nvj 5<Jvvd([zo|`*P7LxCQ21@8U4.jeKG6' );
+define( 'AUTH_KEY',         'rp!.QY7#bS>c~)IS=ZCMB74cYB8lJz1;qU.a14K|4iWp:`d4hfY* ,7_%r>g~&VS' );
+define( 'SECURE_AUTH_KEY',  '~-:PF 2K1sNB<<H+o,^/gS{%_gar,:ucJ#klkAvK~<[O:/,ZkD?If*U)TF8hr>u=' );
+define( 'LOGGED_IN_KEY',    'd14r5R2KEIqWq7c{]<Lea6xA01jbU-Hs-INr-pPR7vZe{zzOzOl)&W^I][MVfj*M' );
+define( 'NONCE_KEY',        '-G:HHLZ|760;x4[m~G]}s0[`iP5Y,Kn6g]?cGP<eZbjRxv8/QrVdy([ySGe!DuQL' );
+define( 'AUTH_SALT',        'J 3Gp?Ly9uMkaRh$wDcEhw`oT$?c>T!m(K>Wp%o8R;_{6YYAFmJSYT2mJVy%X1S6' );
+define( 'SECURE_AUTH_SALT', 'a5+x(d3Yb&XOzHhN:y1vZ*(|?b=H9TP_*071?<2:3SltD121N_{BitojJ9sJ1,oe' );
+define( 'LOGGED_IN_SALT',   'FPOg`(/o>4Nu@b0.z%(sp{F*^*eRM*0XQ`KE!+F>W)V}3K(SWgH5@KCL.voz{U.C' );
+define( 'NONCE_SALT',       '8I#cVMei8](3(g&kH7=p~>(.eLY2ds9S<&[y@(,4Qn5-}m=)b+*>si+CDuL$pZ`q' );
 
 /**#@-*/
 
@@ -94,5 +92,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+define( 'UPLOADS', 'wp-content/uploads' );
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

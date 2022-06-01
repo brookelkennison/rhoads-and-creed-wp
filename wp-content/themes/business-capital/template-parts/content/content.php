@@ -21,7 +21,6 @@
 				?>
 			</header><!-- .entry-header -->
 
-	
 
 			<div class="entry-summary">
 				<?php the_content(); ?>

@@ -14,7 +14,7 @@
 
 get_header();
 
-// $show_content = business_capital_gtm( 'business_capital_show_homepage_content' );
+$show_content = business_capital_gtm( 'business_capital_show_homepage_content' );
 
 if ( $show_content || ! is_front_page() ) :
 	?>

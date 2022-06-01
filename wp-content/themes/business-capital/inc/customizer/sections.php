@@ -75,7 +75,7 @@ function business_capital_get_default_sortable_sections() {
 		'slider'           => esc_html__( 'Slider', 'business-capital' ),
 		'wwd'              => esc_html__( 'What We Do', 'business-capital' ),
 		'hero_content'     => esc_html__( 'Hero Content', 'business-capital' ),
-		'featured_grid'    => esc_html__( 'Featured Grid', 'business-capital' ),
+		'featured_grid'    => esc_html__( 'Portfolio', 'business-capital' ),
 		'testimonial'      => esc_html__( 'Testimonials', 'business-capital' ),
 		'contact_form'     => esc_html__( 'Contact Form', 'business-capital' ),
 		'email_list'       => esc_html__( 'Email List', 'business-capital' )

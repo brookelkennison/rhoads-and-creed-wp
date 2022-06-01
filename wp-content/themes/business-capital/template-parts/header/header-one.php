@@ -88,7 +88,9 @@ $business_capital_button_target = business_capital_gtm( 'business_capital_header
 	<header id="masthead" class="site-header main-header-one clear-fix<?php echo business_capital_gtm( 'business_capital_header_sticky' ) ? ' sticky-enabled' : ''; ?>">
 		<div class="container">
 			<div class="site-header-main">
-			
+				<div class="site-branding">
+					<?php get_template_part( 'template-parts/header/site-branding' ); ?>
+				</div><!-- .site-branding -->
 
 				<div class="right-head pull-right">
 					<div id="main-nav" class="pull-left">

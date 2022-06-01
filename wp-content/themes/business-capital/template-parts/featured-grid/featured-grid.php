@@ -19,22 +19,22 @@ $business_capital_classes[] = 'featured-grid-section section page style-one';
 	<div class="container">
 		<?php business_capital_section_title( 'featured_grid' ); ?>
 
-		<?php get_template_part( 'template-parts/featured-grid/post-type' ); 
-			get_template_part( 'template-parts/header/breadcrumb' );
-			get_template_part( 'template-parts/slider/slider' );
-			get_template_part( 'template-parts/wwd/wwd' );
-			get_template_part( 'template-parts/hero-content/hero-content' );
-			get_template_part( 'template-parts/featured-grid/featured-grid' );
-			get_template_part( 'template-parts/testimonial/testimonial' );
-			get_template_part( 'template-parts/contact-form/contact-form' );
-		?>
-		
+		<?php get_template_part( 'template-parts/featured-grid/post-type' );
+					get_template_part( 'template-parts/header/breadcrumb' );
+					get_template_part( 'template-parts/slider/slider' );
+					get_template_part( 'template-parts/wwd/wwd' );
+					get_template_part( 'template-parts/hero-content/hero-content' );
+					get_template_part( 'template-parts/featured-grid/featured-grid' );
+					get_template_part( 'template-parts/testimonial/testimonial' );
+					get_template_part( 'template-parts/contact-form/contact-form' );
+					 ?>
+					 
 
 		<?php
 		$business_capital_button_text   = business_capital_gtm( 'business_capital_featured_grid_button_text' );
 		$business_capital_button_link   = business_capital_gtm( 'business_capital_featured_grid_button_link' );
 		$business_capital_button_target = business_capital_gtm( 'business_capital_featured_grid_button_target' ) ? '_blank' : '_self';
-		
+
 
 		if ( $business_capital_button_text ) : ?>
 			<div class="more-wrapper clear-fix">

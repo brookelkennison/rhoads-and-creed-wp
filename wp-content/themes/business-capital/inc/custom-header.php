@@ -100,7 +100,7 @@ if ( ! function_exists( 'business_capital_header_title' ) ) :
 	function business_capital_header_title() {
 		if ( ! is_singular() && is_front_page() ) {
 			?>
-			<!-- <h2 class="page-title"><?php bloginfo( 'name' ); ?></h2> -->
+			<h2 class="page-title"><?php bloginfo( 'name' ); ?></h2>
 			
 			<?php
 			$business_capital_description = get_bloginfo( 'description', 'display' );

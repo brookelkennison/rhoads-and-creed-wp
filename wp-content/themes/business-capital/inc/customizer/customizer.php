@@ -184,13 +184,6 @@ require get_theme_file_path( '/inc/customizer/contact-form.php' );
 require get_theme_file_path( '/inc/customizer/reset.php' );
 
 /**
- * Featured Grid.
+ * Portfolio.
  */
 require get_theme_file_path( '/inc/customizer/featured-grid.php' );
-
-/**
- * Email List
- */
-require get_theme_file_path( '/inc/customizer/email-list.php' );
-
-

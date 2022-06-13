@@ -608,7 +608,7 @@ New style */
     background: none;
 }
 
-#post-1 {
+#post-261 {
     margin: 50px 75px 200px;
 }
 
@@ -621,10 +621,6 @@ New style */
     background-attachment: fixed;
 }
 
-#post-16 .hentry-inner {
-    padding: 200px;
-}
-
 #form_contact-us div {
     color: white;
 }
@@ -632,6 +628,14 @@ New style */
 .with_frm_style .frm_primary_label {
     color: white;
 }
+
+@media (max-width: 550px) {
+	#post-261 {
+		margin: 100px 0;
+		padding: 20px;
+	}
+}
+
 
 
   
